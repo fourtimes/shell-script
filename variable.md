@@ -9,7 +9,8 @@
 ```
 
 ```bash
-Unsetting Variables:-----
+**Unsetting Variables:-----**
+
 1. file name - test.sh
     #!/bin/sh
     NAME="Zara Ali"
