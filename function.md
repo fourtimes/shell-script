@@ -6,10 +6,10 @@ test () {
    echo "Hello World"
 }
 
-test 
+test
 
-output:
-    Hello World 
+# output:
+    Hello World
 
 ```
 
@@ -23,7 +23,7 @@ one (){
 }
 one "ashli" "jino"
 
-output:
+# output:
    Hi ashli
    Hi jino
 
@@ -44,7 +44,7 @@ number_two () {
 
 number_one
 
-output:
+# output:
     This is the first function speaking...
     This is now the second function speaking...
 ```
@@ -66,7 +66,7 @@ function foo()  {
 foo
 echo $var
 
-output:
+# output:
    hello
 ```
 
@@ -82,4 +82,20 @@ echo $var
 
 # output:
    hello ash
+```
+
+```bash
+Mixing the two together:
+------------------------
+var="hello"
+function foo(){
+    local var="sup?"
+    echo "inside function, var=$var"
+}
+foo
+echo "outside function, var=$var"
+
+# output:
+   inside function, var=sup?
+   outside function, var=hello
 ```
