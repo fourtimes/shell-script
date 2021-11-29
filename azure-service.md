@@ -1,26 +1,26 @@
 ```bash
 1. Compute service:-
------------------
+-------------------
     - Virtual machines
     - Kubernetes service 
     - App service
     - Container Instance
+    - Cloud service(classic)
+    - Function App
+```
+```bash
+2. Networking:-
+---------------
+    - Virtual network
+    - Load balancer
+    - Public ip addresses
+    - Application gateway
+    - Firewall
+    - Network security groups
     - 
 ```
 ```bash
-1. Item 1
+3. Storage:-
+------------
 
-2. Item 2
-
-3. Item 3
-
-    * Sub item 1
-
-    * Sub item 3
-
-* Unordered item
-
-* Unordered item
-
-* Unordered item
 ```
