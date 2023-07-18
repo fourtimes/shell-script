@@ -1,3 +1,4 @@
+### Install the nginx server 
 ```sh
 #!/bin/bash
 sudo apt update
