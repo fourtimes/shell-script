@@ -4,7 +4,8 @@
 sudo apt update
 sudo apt install apache2 -y
 sudo systemctl enable apache2
-sudo echo '<h1 style="color:blue;">This is Private 1 instance</h1>' > /var/www/html/index.html
+sudo chmod 777 /var/www/html -R
+sudo echo '<h1 style="color:blue;">This is apache2 instance</h1>' > /var/www/html/index.html
 sudo systemctl start apache2
 sudo systemctl status apache2
 ```
