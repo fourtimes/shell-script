@@ -18,3 +18,16 @@ sudo apt-get autoremove -y
 # whereis apache2 => find the apache file
 sudo rm -rf /etc/apache2
 ```
+[or]
+```sh
+#!/bin/bash
+sudo service apache2 stop
+sudo apt-get remove apache2
+sudo apt-get purge apache2
+sudo apt-get autoremove
+whereis apache2
+sudo rm -rf /etc/apache2
+which apache2
+sudo rm -rf /usr/sbin/apache2
+which apache2 # should be get a blank details
+```
